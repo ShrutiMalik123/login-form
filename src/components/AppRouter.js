@@ -13,3 +13,5 @@ function AppRouter() {
           </Router>
   );
 }
+
+export default AppRouter;
