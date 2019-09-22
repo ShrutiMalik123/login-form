@@ -14,6 +14,8 @@ const UserForm = ({ isSubmitting, values, errors, touched, status }) => {
   }, [status]);
 
   return (
+    <header className="App-header1">
+      <div className="card">
     <Form>
         <h1>Become a Member</h1>
       <div>
@@ -41,6 +43,9 @@ const UserForm = ({ isSubmitting, values, errors, touched, status }) => {
       </button>
 
     </Form>
+</div>
+<p>Already a member? <Link to='/Login'>Sign in</Link></p>
+    </header>
   );
 };
 

@@ -14,9 +14,9 @@ const Login = ({ isSubmitting, values, errors, touched, status }) => {
 
   return (
     <header className="App-header2">
-      <div className="card">
+      <div className="card2">
     <Form>
-        <h1>Sign In</h1>
+        <h1>Sign in to see your schedule</h1>
       <div>
         {touched.email && errors.email && <p>{errors.email}</p>}
         <Field type='email' name='email' placeholder='Email' />

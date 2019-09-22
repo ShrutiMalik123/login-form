@@ -8,7 +8,7 @@ function AppRouter() {
       <Router>
           <Switch>
           <Route path="/" exact component={UserForm} />
-          <Route path="/sorting" component={Login} />
+          <Route path="/Login" component={Login} />
           </Switch>
           </Router>
   );
