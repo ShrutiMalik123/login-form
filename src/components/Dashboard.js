@@ -15,7 +15,9 @@ const Dashboard = () => {
         <p> Advanced Styling Techniques <a href="https://determined-murdock-adcae8.netlify.com">NASA Photo of the Day.</a> </p>
         <p> Sprint Challenge: React - Star Wars <a href="https://priceless-keller-1ace00.netlify.com">Sprint Challenge: React - Star Wars</a> </p>
         <p>React Router II <a href="https://youthful-archimedes-c931ba.netlify.com/">React-Router-Movies.</a> Movies list not seen as Local Host 5000, axios not started in build. Need to check on how to deploy on netlify.</p>
-   </MainContainer>
+        <p> Form Management <a href="https://jovial-hoover-7360e6.netlify.com/"> Team Builder</a> </p>
+        <p> Sprint Challenge - React (SPA) w/ Routes and Hooks <a href="https://relaxed-lalande-2e22d9.netlify.com"> Rick & Morty Edition</a> </p>
+ </MainContainer>
 )
 }
 
