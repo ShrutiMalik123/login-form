@@ -5,6 +5,7 @@ import Login from "./Login";
 import Dashboard from "./Dashboard";
 import About from "./About";
 import Contact from "./Contact";
+import Carousal from "./Carousal";
 
 function AppRouter() {
     return (
@@ -15,6 +16,7 @@ function AppRouter() {
           <Route path="/UserForm" component={UserForm} />
           <Route path="/About" component={About} />
           <Route path="/Contact" component={Contact} />
+          <Route path="/Carousal" component={Carousal} />
           </Switch>
           </Router>
   );
