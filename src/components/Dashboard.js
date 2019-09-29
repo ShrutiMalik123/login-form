@@ -23,7 +23,7 @@ export default Dashboard;
 
 const MainContainer = styled.div`
 min-height: 100vh;
-background-color : red;
+background-color : #484848;
 header {
     height: 20vh;
     position: relative;
