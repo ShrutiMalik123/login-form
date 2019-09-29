@@ -10,9 +10,9 @@ function AppRouter() {
     return (
       <Router>
           <Switch>
-          <Route path="/" exact component={UserForm} />
+          <Route path="/" exact component={Dashboard} />
           <Route path="/Login" component={Login} />
-          <Route path="/Dashboard" component={Dashboard} />
+          <Route path="/UserForm" component={UserForm} />
           <Route path="/About" component={About} />
           <Route path="/Contact" component={Contact} />
           </Switch>

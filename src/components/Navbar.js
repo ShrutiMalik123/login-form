@@ -11,6 +11,8 @@ import {
   DropdownToggle,
   DropdownMenu,
   DropdownItem } from 'reactstrap';
+  import 'bootstrap/dist/css/bootstrap.min.css';
+
 
 export default class Example extends React.Component {
   constructor(props) {
@@ -30,7 +32,7 @@ export default class Example extends React.Component {
     return (
       <div>
         <Navbar color="light" light expand="md">
-          <NavbarBrand href="/">reactstrap</NavbarBrand>
+          <NavbarBrand href="/">Shruti's React-1 Junkyard</NavbarBrand>
           <NavbarToggler onClick={this.toggle} />
           <Collapse isOpen={this.state.isOpen} navbar>
             <Nav className="ml-auto" navbar>
@@ -46,7 +48,7 @@ export default class Example extends React.Component {
                 </DropdownToggle>
                 <DropdownMenu right>
                   <DropdownItem>
-                    Option 1
+                  <NavLink href="/UserForm">Formik forms with no backend</NavLink>
                   </DropdownItem>
                   <DropdownItem>
                     Option 2
