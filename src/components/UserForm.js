@@ -3,6 +3,7 @@ import { withFormik, Form, Field } from 'formik';
 import axios from 'axios';
 import * as yup from 'yup';
 import { Link } from "react-router-dom";
+import styled from "styled-components";
 
 const UserForm = ({ isSubmitting, values, errors, touched, status }) => {
   const [users, setUsers] = useState([]);
@@ -44,7 +45,9 @@ const UserForm = ({ isSubmitting, values, errors, touched, status }) => {
 
     </Form>
 </div>
+<div className="pcolor">
 <p>Already a member? <Link to='/Login'>Sign in</Link></p>
+</div>
     </header>
   );
 };
@@ -90,3 +93,18 @@ export default withFormik({
       });
   }
 })(UserForm);
+
+const card = styled.div`
+{
+  background-color: rgb(17, 17, 16);
+  border: 0;
+  box-shadow: 0 -1px 0 #e0e0e0, 0 0 2px rgba(239, 240, 243, 0.473),
+    0 2px 4px rgba(250, 248, 248, 0.24);
+  padding: 1rem;
+  cursor: pointer;
+  position: relative;
+  margin: 1rem auto;
+  justify-content: center;
+  display: flex;
+}
+`

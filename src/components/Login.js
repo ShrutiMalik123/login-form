@@ -2,6 +2,7 @@ import React, { useState, useEffect } from 'react';
 import { withFormik, Form, Field } from 'formik';
 import axios from 'axios';
 import * as yup from 'yup';
+import styled from "styled-components";
 
 const Login = ({ isSubmitting, values, errors, touched, status }) => {
   const [users, setUsers] = useState([]);
@@ -16,7 +17,7 @@ const Login = ({ isSubmitting, values, errors, touched, status }) => {
     <header className="App-header2">
       <div className="card2">
     <Form>
-        <h1>Sign in to see your schedule</h1>
+        <h1>Sign in </h1>
       <div>
         {touched.email && errors.email && <p>{errors.email}</p>}
         <Field type='email' name='email' placeholder='Email' />
@@ -75,3 +76,9 @@ export default withFormik({
       });
   }
 })(Login);
+
+const button = styled.div`
+{display: flex;
+justify-content: center;
+}
+`

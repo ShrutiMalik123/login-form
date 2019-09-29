@@ -48,7 +48,7 @@ export default class Example extends React.Component {
                 </DropdownToggle>
                 <DropdownMenu right>
                   <DropdownItem>
-                  <NavLink href="/UserForm">Formik forms with no backend</NavLink>
+                  <NavLink href="https://docs.google.com/document/d/1bv6lLIAhG0-Y_oaE3Kf1aLl9IVow0iR65iDrZIRuuu8/edit?usp=sharing">Junk Yard Google Notes</NavLink>
                   </DropdownItem>
                   <DropdownItem>
                     Option 2
