@@ -7,7 +7,7 @@ const Dashboard = () => {
         <MainContainer>
         <header>
            
-            <h1>Welcome Friends</h1>
+            <h1>Welcome Friends!</h1>
         </header>
         <p> My beautiful <Link to='/UserForm'>Formik Forms</Link> with no Backend.</p>
         <p> React Components and component state <a href="https://gallant-nobel-3285bc.netlify.com/">American Football Scorecard.</a> </p>
