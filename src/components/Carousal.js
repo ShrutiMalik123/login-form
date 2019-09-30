@@ -17,7 +17,7 @@ const items = [
     header: 'Special Thanks to my Team Lead'
   },
   {
-    src: 'charlize-birdsinger-oS3NqyXoFzA-unsplash.jpg',  
+    src: 'nNrVAtk-street-art-wallpaper.jpg',  
     altText: 'Slide 3',
     caption: 'Thank you for taking time to look at it.',
     header: 'This is React part of my portfolio website'
