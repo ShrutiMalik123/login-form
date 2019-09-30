@@ -36,15 +36,17 @@ export default class Example extends React.Component {
           <NavbarToggler onClick={this.toggle} />
           <Collapse isOpen={this.state.isOpen} navbar>
             <Nav className="ml-auto" navbar>
+            
+                <NavItem>
+                <NavLink href="/Dashboard">React 1 Projects</NavLink>
+                </NavItem>
+              
               <NavItem>
                 <NavLink href="/Contact">Contact</NavLink>
                 </NavItem>
               <NavItem>
                 <NavLink href="/About">About</NavLink>
-                </NavItem>
-                <NavItem>
-                <NavLink href="/Carousal">Carousal</NavLink>
-                </NavItem>
+                </NavItem> 
               <UncontrolledDropdown nav inNavbar>
                 <DropdownToggle nav caret>
                   Options

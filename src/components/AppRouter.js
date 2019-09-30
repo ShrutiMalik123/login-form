@@ -11,12 +11,12 @@ function AppRouter() {
     return (
       <Router>
           <Switch>
-          <Route path="/" exact component={Dashboard} />
+          <Route path="/" exact component={Carousal} />
           <Route path="/Login" component={Login} />
           <Route path="/UserForm" component={UserForm} />
           <Route path="/About" component={About} />
           <Route path="/Contact" component={Contact} />
-          <Route path="/Carousal" component={Carousal} />
+          <Route path="/Dashboard" component={Dashboard} />
           </Switch>
           </Router>
   );
