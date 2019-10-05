@@ -4,7 +4,7 @@ import UserForm from "./UserForm";
 import Login from "./Login";
 import Dashboard from "./Dashboard";
 import About from "./About";
-import Contact from "./Contact";
+import Music from "./Music";
 import Carousal from "./Carousal";
 
 function AppRouter() {
@@ -15,7 +15,7 @@ function AppRouter() {
           <Route path="/Login" component={Login} />
           <Route path="/UserForm" component={UserForm} />
           <Route path="/About" component={About} />
-          <Route path="/Contact" component={Contact} />
+          <Route path="/Music" component={Music} />
           <Route path="/Dashboard" component={Dashboard} />
           </Switch>
           </Router>
